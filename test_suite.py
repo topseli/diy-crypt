@@ -1,7 +1,7 @@
 from random import randint
 from PyRSA.rsa_suite import rsa_suite
 from PyRSA.logger import info, error
-# PyRSA tests
+
 
 RSA_test = rsa_suite()
 
