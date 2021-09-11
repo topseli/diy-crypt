@@ -1,4 +1,3 @@
-# RSA Key generator
 from random import choice
 from numpy import remainder, gcd
 from logger import info, warning
@@ -14,9 +13,11 @@ class rsa_suite():
         p = 0
         q = 0
 
-        # Ensuring that p != q
         # TODO Fix the "possible" infinite loop
         while(p == q):
+            # TODO Implement cryptographically secure random number generation
+            # https://pynative.com/cryptographically-secure-random-data-in-python/
+
             p = choice(primes)
             q = choice(primes)
             if(p == q):
