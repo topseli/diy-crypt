@@ -23,3 +23,10 @@ The implementations are grose simplifications and just demonstrate the basic log
     - Elliptic curve cryptography
     - DES
     - AES
+
+## PyRSA
+
+A naive implementation of RSA encryption using ~1000 first prime numbers for key generation
+Encrypts and decrypts integers but it is rahter slow as the implementation of the mathematics isn't very clever right now...
+
+Planned to implement a fixed message and key size. ie. 256 bit key and message seize and to optimize the mathematical functions.
