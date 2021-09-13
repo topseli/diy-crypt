@@ -1,4 +1,4 @@
-# Simple Crypto
+# DIY CRYPTO
 
 A repository containing common encryption and key exchange algorithms and the mathematics behind them.
 
